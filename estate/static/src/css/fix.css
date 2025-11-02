@@ -1,0 +1,24 @@
+/* ======== FIX FOR BREADCRUMB ALIGNMENT ======== */
+.o_breadcrumb_item, .breadcrumb-item {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    vertical-align: middle !important;
+}
+
+/* أيقونة المسنن ⚙️ تكون بمحاذاة الكلمة */
+.o_breadcrumb_item i.fa,
+.breadcrumb-item i.fa {
+    font-size: 14px !important;
+    margin-left: 4px;
+    position: relative;
+    top: 0 !important;
+}
+
+/* تصحيح المسافات العامة */
+.o_breadcrumb,
+.breadcrumb {
+    margin-bottom: 0 !important;
+    padding: 0 4px !important;
+}
